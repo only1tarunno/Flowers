@@ -248,3 +248,6 @@ footer h5{
 .abt-right{
     width: 50%;
 }
+.abt-right p{
+    width: 600px;
+}
