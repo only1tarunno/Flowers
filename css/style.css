@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5547334;
+    padding: 0 200px;
+    box-sizing: border-box;
+}
+.header-left{
+    width: 50%;
+}
+.header-left h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #272727;
+    line-height: 96px;
+    width: 670px;
+}
+.header-left p{
+    width: 700px;
+}
+p{
+    color: #27272793;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 25px 0 40px;
+}
+.cs-btn{
+    background: #E55473;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 4px 2px #e55473ad;
+    transition: 0.3 all ease-in-out;
+}
+.cs-btn:hover{
+    background: #e04667;
+}
+.header-right{
+    width: 50%;
+    align-self: self-end;
+}
+.banner-img{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+#container{
+    margin-top: 150px;
+}
+.container{
+ text-align: center;
+ margin: 80px 200px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+}
+.container-text p{
+    width: 700px;
+    margin: 25px auto 40px;
+}
+.container-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container-item{
+    width: 32%;
+}
+.item-img{
+    padding: 40px 0 0;
+    border-radius: 50% 50% 0 0;
+    min-height: 470px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#item-1{
+    background-color: #a7216254;
+}
+#item-2{
+    background-color: #0598a048;
+    align-items: center;
+}
+#item-3{
+    background-color: #477d113a;
+}
+.flower-link{
+    margin-top: 20px;
+}
+.flower-link a{
+    font-size: 26px;
+    font-weight: 700;
+    color: #272727;
+}
+#service{
+    background-color: #27272717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0 55px;
+    border-radius: 8px;
+}
+.service{
+    width: 25%;
+}
+.s-img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: auto;
+}
+.s-img img{
+    width: 100%;
+}
+.hot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e554731a;
+    box-sizing: border-box;
+    padding: 80px 200px; 
+}
+.hot-left{
+    width: 40%;
+    text-align: center;
+}
+.hot-right{
+    width: 40%;
+    text-align: center;
+}
+.insta-img{
+    width: 23%;
+}
+.insta-img img{
+    width: 100%;
+}
+.call{
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 200px 80px;
+    padding: 100px 200px;
+    text-align: center;
+}
+form{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=email]{
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+input[type=email]::placeholder{
+    color: #272727;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+  
+}
+input[type=submit]{
+    background: #E55473;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: 0.3 all ease-in-out;
+    border: none;
+    width: 25%;
+}
+input[type=submit]:hover{
+    background: #e04667;
+    cursor: pointer;
+}
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 120px 0;
+}
+footer h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+span{
+    color: #E55473;
+}
+footer p{
+    width: 800px;
+    color: #fff;
+    margin: 25px auto;
+}
+footer h5{
+    color: #dadada;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about{
+    margin: 120px 200px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abt-left{
+    width: 50%;
+    
+}
+.abt-img{
+    width: 600px;
+    height: 600px;
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.abt-img img{
+    width: auto;
+}
+.abt-right{
+    width: 50%;
+}
